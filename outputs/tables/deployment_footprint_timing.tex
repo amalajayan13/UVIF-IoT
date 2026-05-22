@@ -1,0 +1,14 @@
+\begin{tabular}{llrrrrrrrrr}
+\toprule
+model & runtime\_backend & n\_samples & n\_features & feature\_reduction\_pct & trainable\_parameters & saved\_model\_size\_mb & mean\_time\_sec & std\_time\_sec & samples\_per\_sec & ms\_per\_1000\_samples \\
+\midrule
+Standard MLP & PyTorch CPU & 20000 & 115 & 0.000000 & 23234.000000 & 0.092790 & 0.118582 & 0.014804 & 168659.121205 & 5.929119 \\
+UVIF-IoT-Calibrated MLP & PyTorch CPU & 20000 & 115 & 0.000000 & 23234.000000 & 0.092790 & 0.121529 & 0.014553 & 164570.288061 & 6.076431 \\
+UVIF-IoT-FE-10 & PyTorch CPU & 20000 & 10 & 91.304348 & 9794.000000 & 0.041848 & 0.143561 & 0.073257 & 139313.698899 & 7.178045 \\
+UVIF-IoT-FE-10 & PyTorch cuda & 20000 & 10 & 91.304348 & 9794.000000 & 0.041848 & 0.088126 & 0.031946 & 226948.603396 & 4.406284 \\
+Standard MLP & PyTorch cuda & 20000 & 115 & 0.000000 & 23234.000000 & 0.092790 & 0.112749 & 0.016851 & 177385.826064 & 5.637429 \\
+UVIF-IoT-Calibrated MLP & PyTorch cuda & 20000 & 115 & 0.000000 & 23234.000000 & 0.092790 & 0.167861 & 0.048899 & 119146.226747 & 8.393048 \\
+Logistic Regression & scikit-learn CPU & 20000 & 115 & 0.000000 & NaN & 0.001723 & 0.011959 & 0.000964 & 1672316.309502 & 0.597973 \\
+Random Forest & scikit-learn CPU & 20000 & 115 & 0.000000 & NaN & 1.001748 & 0.055980 & 0.007540 & 357267.517936 & 2.799023 \\
+\bottomrule
+\end{tabular}

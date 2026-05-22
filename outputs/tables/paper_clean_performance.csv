@@ -1,0 +1,5 @@
+model,n_features,accuracy,macro_f1,weighted_f1,balanced_accuracy,train_time_sec,notes
+Random Forest,115,0.9998333333333334,0.9998333333287037,0.9998333333287036,0.9998333333333334,6.736,Random forest baseline on raw features
+Standard MLP,115,0.9994,0.9994,0.9994,0.9994,79.562,Two-hidden-layer MLP baseline
+UVIF-IoT-Calibrated MLP,115,0.9994,0.9994,0.9994,0.9994,,"MLP with temperature scaling, T=1.3920"
+Logistic Regression,115,0.9986166666666667,0.9986166658885411,0.9986166658885411,0.9986166666666667,5.818,L2 logistic regression baseline

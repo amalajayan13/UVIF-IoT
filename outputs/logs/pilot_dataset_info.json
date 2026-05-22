@@ -1,0 +1,18 @@
+{
+    "n_samples": 300000,
+    "n_features": 115,
+    "class_counts": {
+        "benign": 150000,
+        "attack": 150000
+    },
+    "family_counts": {
+        "benign": 150000,
+        "mirai": 84565,
+        "gafgyt": 65435
+    },
+    "sampling_config": {
+        "max_samples_total": 300000,
+        "max_samples_per_file": 25000,
+        "seed": 42
+    }
+}

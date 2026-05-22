@@ -1,0 +1,3 @@
+model,split,group,n_samples,mean_confidence,mean_confidence_uncertainty,mean_entropy,mean_margin_uncertainty
+Standard MLP,test,incorrect,36,0.9052813053131104,0.09471872448921204,0.19475798308849335,0.18943744897842407
+Standard MLP,test,correct,59964,0.9997332096099854,0.00026688596699386835,0.0010406215442344546,0.0005337736802175641

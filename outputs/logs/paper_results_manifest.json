@@ -1,0 +1,29 @@
+{
+    "experiment_name": "UVIF-IoT-WiMob2026",
+    "seed": 42,
+    "dataset": {
+        "name": "N-BaIoT",
+        "pilot_samples": 300000,
+        "n_features": 115,
+        "train_samples": 192000,
+        "validation_samples": 48000,
+        "test_samples": 60000,
+        "sampling_mode": "pilot balanced sample"
+    },
+    "best_feature_budget": "10",
+    "best_feature_count": 10,
+    "best_feature_reduction_pct": 91.30434782608697,
+    "main_tables": {
+        "clean_performance": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\outputs\\tables\\paper_clean_performance.csv",
+        "calibration_summary": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\outputs\\tables\\paper_calibration_summary.csv",
+        "robustness_summary": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\outputs\\tables\\paper_robustness_summary.csv",
+        "feature_efficiency": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\outputs\\tables\\paper_feature_efficiency_summary.csv",
+        "ablation_summary": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\outputs\\tables\\paper_ablation_summary.csv"
+    },
+    "main_figures": {
+        "clean_macro_f1": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\outputs\\figures\\paper_clean_macro_f1_comparison.png",
+        "strong_attack_macro_f1": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\outputs\\figures\\paper_strong_attack_macro_f1_comparison.png",
+        "accuracy_efficiency_tradeoff": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\outputs\\figures\\paper_accuracy_efficiency_tradeoff.png"
+    },
+    "created_at": "2026-05-19 20:07:50"
+}

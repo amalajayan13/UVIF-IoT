@@ -1,0 +1,4 @@
+split,n_samples,percentage_of_total
+train,192000,64.0
+validation,48000,16.0
+test,60000,20.0

@@ -1,0 +1,9 @@
+{
+    "timing_samples": 20000,
+    "timing_repeats": 5,
+    "timing_batch_size": 1024,
+    "device": "cuda",
+    "selected_feature_budget": "10",
+    "note": "Wall-clock inference timing only. No energy or hardware power measurement is claimed.",
+    "table": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\outputs\\tables\\deployment_footprint_timing.csv"
+}
