@@ -1,3 +1,0 @@
-binary_label,binary_target,n_files,n_rows,size_mb
-benign,0.0,9,555932,572.603
-attack,1.0,80,6506674,7191.097

@@ -1,0 +1,13 @@
+{
+  "models": [
+    "Logistic Regression",
+    "Random Forest",
+    "Standard MLP",
+    "UVIF-IoT"
+  ],
+  "full_features": 115,
+  "uvif_features": 30,
+  "feature_reduction_pct": 73.91304347826086,
+  "mlp_parameters": 23234,
+  "uvif_parameters": 4130
+}

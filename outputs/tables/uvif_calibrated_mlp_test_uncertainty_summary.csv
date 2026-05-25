@@ -1,3 +1,0 @@
-model,split,group,n_samples,mean_confidence,mean_confidence_uncertainty,mean_entropy,mean_margin_uncertainty
-UVIF-IoT-Calibrated MLP,test,incorrect,36,0.8814600110054016,0.11854001879692078,0.2486351579427719,0.23708006739616394
-UVIF-IoT-Calibrated MLP,test,correct,59964,0.9992048144340515,0.0007952316082082689,0.003972790203988552,0.0015904722968116403

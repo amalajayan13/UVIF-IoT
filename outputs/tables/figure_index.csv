@@ -1,0 +1,6 @@
+figure,description,pdf,png
+fig_detection_calibration,Detection and calibration metrics,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_detection_calibration.pdf,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_detection_calibration.png
+fig_pgd_robustness,PGD robustness comparison,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_pgd_robustness.pdf,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_pgd_robustness.png
+fig_model_cost,Parameter count and serialized size,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_model_cost.pdf,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_model_cost.png
+fig_cpu_latency,CPU inference latency,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_cpu_latency.pdf,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_cpu_latency.png
+fig_rf_feature_importance,Top Random-Forest-ranked features,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_rf_feature_importance.pdf,F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\figures\fig_rf_feature_importance.png

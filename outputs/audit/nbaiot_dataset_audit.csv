@@ -1,0 +1,2 @@
+rows,columns,features,label_counts,device_counts,attack_type_counts,missing_feature_values,duplicate_rows
+1061384,121,115,"{'benign': 530692, 'attack': 530692}","{'device_1': 580240, 'device_4': 150000, 'device_6': 98514, 'device_5': 62154, 'device_7': 52150, 'device_8': 46585, 'device_3': 39100, 'device_9': 19528, 'device_2': 13113}","{'benign': 530692, 'mirai+syn': 86839, 'mirai+scan': 76224, 'gafgyt+udp': 74916, 'mirai+ack': 72484, 'mirai+udp': 71323, 'gafgyt+tcp': 65248, 'gafgyt+combo': 42136, 'gafgyt+scan': 21041, 'gafgyt+junk': 20481}",0,46603

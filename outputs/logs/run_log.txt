@@ -1,0 +1,82 @@
+[20:02:04] Project root: F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026
+[20:02:04] Output directory: F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs
+[20:02:04] Run mode: final
+[20:02:04] Device: cuda
+[20:02:04] GPU: NVIDIA RTX A1000 Laptop GPU
+[20:02:04] Setup complete
+[20:10:16] N-BaIoT files: 89
+[20:10:17] 1.benign.csv             benign    49,548 rows
+[20:10:19] 1.gafgyt.combo.csv       attack    59,718 rows
+[20:10:19] 1.gafgyt.junk.csv        attack    29,068 rows
+[20:10:20] 1.gafgyt.scan.csv        attack    29,849 rows
+[20:10:21] 1.gafgyt.tcp.csv         attack    92,141 rows
+[20:10:22] 1.gafgyt.udp.csv         attack   105,874 rows
+[20:10:24] 1.mirai.ack.csv          attack   102,195 rows
+[20:10:25] 1.mirai.scan.csv         attack   107,685 rows
+[20:10:28] 1.mirai.syn.csv          attack   122,573 rows
+[20:10:32] 1.mirai.udp.csv          attack   100,897 rows
+[20:10:32] 2.benign.csv             benign    13,113 rows
+[20:10:33] 3.benign.csv             benign    39,100 rows
+[20:10:37] 4.benign.csv             benign   150,000 rows
+[20:10:38] 5.benign.csv             benign    62,154 rows
+[20:10:40] 6.benign.csv             benign    98,514 rows
+[20:10:41] 7.benign.csv             benign    52,150 rows
+[20:10:42] 8.benign.csv             benign    46,585 rows
+[20:10:42] 9.benign.csv             benign    19,528 rows
+[20:10:56] Loaded shape: (1061384, 121)
+[20:10:56] Features: 115
+[20:10:56] Labels: {'benign': 530692, 'attack': 530692}
+[20:10:56] Missing feature values: 0
+[20:10:56] Duplicate rows: 46603
+[20:10:56] Dataset loading complete
+[20:13:01] Train: (742968, 115)
+[20:13:01] Validation: (106138, 115)
+[20:13:01] Test: (212278, 115)
+[20:13:01] Train labels: {'0': 371484, '1': 371484}
+[20:13:01] Validation labels: {'0': 53069, '1': 53069}
+[20:13:01] Test labels: {'0': 106139, '1': 106139}
+[20:13:01] Split and scaling complete
+[20:14:08] Models and metric functions loaded
+[20:15:07] Training logistic regression
+[20:15:18] Training random forest
+[20:16:05] Training standard MLP
+[20:16:26] Standard MLP: epoch 01/50, val_f1=0.9995
+[20:17:41] Standard MLP: epoch 05/50, val_f1=0.9996
+[20:19:17] Standard MLP: epoch 10/50, val_f1=0.9996
+[20:20:51] Standard MLP: epoch 15/50, val_f1=0.9997
+[20:21:10] Standard MLP: stopped at epoch 16, best_val_f1=0.9997
+[20:21:10] Training UVIF-IoT on 30 selected features
+[20:21:20] UVIF-IoT: epoch 01/50, val_f1=0.9991
+[20:22:01] UVIF-IoT: epoch 05/50, val_f1=0.9996
+[20:22:51] UVIF-IoT: epoch 10/50, val_f1=0.9997
+[20:23:12] UVIF-IoT: stopped at epoch 12, best_val_f1=0.9996
+[20:23:12] Models trained: ['Logistic Regression', 'Random Forest', 'Standard MLP', 'UVIF-IoT']
+[20:23:12] UVIF-IoT feature reduction: 73.9%
+[20:23:12] Training complete
+[20:34:09] Logistic Regression  acc=0.9991 f1=0.9991 auc=0.9999 ece=0.000298
+[20:34:09] Random Forest        acc=1.0000 f1=1.0000 auc=1.0000 ece=0.000058
+[20:34:09] Standard MLP         acc=0.9996 f1=0.9996 auc=1.0000 ece=0.000220
+[20:34:09] Standard MLP + T     acc=0.9996 f1=0.9996 auc=1.0000 ece=0.000224
+[20:34:09] UVIF-IoT             acc=0.9997 f1=0.9997 auc=1.0000 ece=0.000218
+[20:34:09] UVIF-IoT + T         acc=0.9997 f1=0.9997 auc=1.0000 ece=0.000068
+[20:34:09] Standard MLP temperature: 1.0039
+[20:34:09] UVIF-IoT temperature: 1.2074
+[20:34:09] Evaluation complete
+[20:37:06] Ledger rows: 212,278
+[20:37:06] False negatives: 32
+[20:37:06] False positives: 42
+[20:37:06] Mean entropy: 0.003352
+[20:37:06] Triage outputs saved
+[20:40:28] Standard MLP clean=0.9996, FGSM(0.01)=0.9996, PGD(0.02)=0.9993
+[20:40:41] UVIF-IoT     clean=0.9996, FGSM(0.01)=0.9995, PGD(0.02)=0.9995
+[20:40:41] Robustness check complete
+[20:43:27] Latency samples: 20,000
+[20:43:27] Inference-cost summary saved
+[20:44:56] Figures saved
+[20:52:46] Clean metrics table: F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\tables\selected_clean_metrics.csv
+[20:52:46] Robustness table: F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\tables\selected_robustness.csv
+[20:52:46] Efficiency table: F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\tables\selected_edge_efficiency.csv
+[20:52:46] Triage brief: F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\forensics\triage_brief.json
+[20:52:46] Run summary: F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\logs\run_summary.txt
+[20:52:46] Artifact inventory: F:\MBZUAI UAE\16-Conference\1-UVIF-IoT-WiMob26\UVIF-IoT-WiMob2026\outputs\artifact_inventory.csv
+[20:52:46] Summary files saved

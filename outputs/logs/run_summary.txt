@@ -1,0 +1,34 @@
+UVIF-IoT run summary
+============================================================
+
+Dataset: N-BaIoT
+Run mode: final
+Rows loaded: 1,061,384
+Train / validation / test: 742,968 / 106,138 / 212,278
+Full feature count: 115
+UVIF-IoT feature count: 30
+UVIF-IoT feature reduction: 73.9%
+
+Detection and calibration
+  LR         F1=0.9991, ROC-AUC=0.9999, PR-AUC=0.9999, ECE=0.000298
+  RF         F1=1.0000, ROC-AUC=1.0000, PR-AUC=1.0000, ECE=0.000058
+  MLP        F1=0.9996, ROC-AUC=1.0000, PR-AUC=1.0000, ECE=0.000224
+  UVIF-IoT   F1=0.9997, ROC-AUC=1.0000, PR-AUC=1.0000, ECE=0.000068
+
+Robustness
+  Standard MLP clean=0.9996, FGSM(0.01)=0.9996, PGD(0.02)=0.9993
+  UVIF-IoT     clean=0.9996, FGSM(0.01)=0.9995, PGD(0.02)=0.9995
+
+Inference cost
+  Standard MLP features=115, params=23,234, size=96.4 KB, CPU latency=0.000401 ms/sample
+  UVIF-IoT     features=30, params=4,130, size=20.1 KB, CPU latency=0.000220 ms/sample
+
+Triage
+  Ledger rows: 212,278
+  False negatives: 32
+  False positives: 42
+  Priority score: 0.50*attack_probability + 0.30*entropy_norm + 0.20*confidence_uncertainty
+
+Interpretation note
+  The IDS output supports event ranking and analyst review.
+  The triage files should not be treated as complete legal-forensic evidence.

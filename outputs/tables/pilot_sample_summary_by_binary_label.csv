@@ -1,3 +1,0 @@
-binary_label,binary_target,sampled_rows
-benign,0,150000
-attack,1,150000

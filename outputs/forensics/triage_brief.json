@@ -1,0 +1,9 @@
+{
+  "test_events": 212278,
+  "false_negatives": 32,
+  "false_positives": 42,
+  "mean_confidence": 0.9996318221092224,
+  "mean_entropy_norm": 0.0033516760838391262,
+  "mean_priority_score": 0.25110817407888525,
+  "priority_score": "0.50*attack_probability + 0.30*entropy_norm + 0.20*confidence_uncertainty"
+}

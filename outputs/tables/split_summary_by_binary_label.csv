@@ -1,7 +1,0 @@
-split,binary_target,binary_label,n_samples,percentage
-train,0,benign,96000,50.0
-train,1,attack,96000,50.0
-validation,0,benign,24000,50.0
-validation,1,attack,24000,50.0
-test,0,benign,30000,50.0
-test,1,attack,30000,50.0

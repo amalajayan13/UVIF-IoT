@@ -1,0 +1,2 @@
+test_events,false_negatives,false_positives,mean_confidence,mean_entropy_norm,mean_priority_score,priority_score
+212278,32,42,0.9996318221092224,0.0033516760838391262,0.25110817407888525,0.50*attack_probability + 0.30*entropy_norm + 0.20*confidence_uncertainty

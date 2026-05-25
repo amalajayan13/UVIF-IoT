@@ -1,0 +1,39 @@
+{
+  "project": "UVIF-IoT-WiMob2026",
+  "run_mode": "final",
+  "seed": 42,
+  "colab": false,
+  "project_root": "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026",
+  "device": "cuda",
+  "data_roots": [
+    "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\data\\nbaiot",
+    "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026\\data",
+    "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\data\\nbaiot",
+    "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\data",
+    "F:\\MBZUAI UAE\\16-Conference\\1-UVIF-IoT-WiMob26\\UVIF-IoT-WiMob2026"
+  ],
+  "config": {
+    "max_total_rows": 1500000,
+    "max_rows_per_file": 150000,
+    "batch_size": 512,
+    "epochs": 50,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "dropout": 0.3,
+    "early_stop": 8,
+    "ece_bins": 15,
+    "pgd_steps": 10,
+    "pgd_alpha": 0.004,
+    "adv_batch_cap": 200,
+    "rf_trees": 300,
+    "feature_budgets": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      115
+    ]
+  }
+}

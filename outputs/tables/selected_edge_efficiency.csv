@@ -1,0 +1,3 @@
+model,features,feature_reduction_pct,parameters,size_kb,cpu_ms_per_sample,cpu_samples_per_sec
+Standard MLP,115,0.0,23234.0,96.39,0.0004007729998556897,2495178.0692813136
+UVIF-IoT,30,73.91304347826086,4130.0,20.1,0.00021996600000420585,4546157.133288234

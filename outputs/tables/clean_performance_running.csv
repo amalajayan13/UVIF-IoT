@@ -1,9 +1,0 @@
-model,split,n_samples,n_features,notes,accuracy,macro_f1,weighted_f1,balanced_accuracy,train_time_sec
-Logistic Regression,validation,48000,115,L2 logistic regression baseline,0.9984791666666667,0.9984791657630112,0.9984791657630112,0.9984791666666666,5.818
-Logistic Regression,test,60000,115,L2 logistic regression baseline,0.9986166666666667,0.9986166658885411,0.9986166658885411,0.9986166666666667,5.818
-Random Forest,validation,48000,115,Random forest baseline on raw features,0.9997291666666667,0.9997291666571452,0.9997291666571452,0.9997291666666667,6.736
-Random Forest,test,60000,115,Random forest baseline on raw features,0.9998333333333334,0.9998333333287037,0.9998333333287036,0.9998333333333334,6.736
-Standard MLP,validation,48000,115,Two-hidden-layer MLP baseline,0.9993125,0.9993124999853786,0.9993124999853786,0.9993125,79.562
-Standard MLP,test,60000,115,Two-hidden-layer MLP baseline,0.9994,0.9994,0.9994,0.9994,79.562
-UVIF-IoT-Calibrated MLP,validation,48000,115,"MLP with temperature scaling, T=1.3920",0.9993125,0.9993124999853786,0.9993124999853786,0.9993125,
-UVIF-IoT-Calibrated MLP,test,60000,115,"MLP with temperature scaling, T=1.3920",0.9994,0.9994,0.9994,0.9994,
