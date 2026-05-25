@@ -1,4 +1,4 @@
-# UVIF-IoT
+# UVIF-IoT: Uncertainty-aware, Validated, Interpretable, and Feature-efficient IoT intrusion detection
 
 ## Reproducibility
 The full experiment is implemented in `main.ipynb` and can be executed locally or in Google Colab. The notebook performs dataset audit, preprocessing, model training, calibration, robustness evaluation, edge-efficiency analysis, and forensic triage export.
